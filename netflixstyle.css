@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.75)), url("background_image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    backface-visibility: 50%;
+    width: 100%;
+    height: 60vh;
+}
+
+.top1 {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:25px;
+    padding-right:55px;
+    
+}
+
+.image {
+    height: 110px;
+    width: 190px;
+    text-align: left;
+}
+button{
+     text-align: left;
+     background-color: #e50914;
+     border: none;
+     border-radius:5%;
+     padding: 3px;
+     font-weight: 700;
+     color: white;
+     cursor: pointer;
+}
+button:hover{
+     background-color: #f6121d;
+}
+.top2{
+    text-align: center;
+     color: white;
+     margin-top: 110px;
+     padding: 32px;
+     text-decoration: solid;
+     
+   
+}
+h1{
+     padding-bottom: 8px;
+     font-size: 2.8rem;
+     font-weight: 900;
+}
+h5{
+     font-size: 1.3rem;
+     font-weight: 400;
+     padding-bottom: 20px;
+}
+h6{
+     font-weight: 300;
+     font-size: 1rem;
+     padding-bottom: 8px;
+}
+.emailadd{
+     height: 30px;
+     background-color: rgba(0,0,0,0.4);
+     border: 1px solid rgb(93, 91, 91);
+     border-radius: 2px;
+     width: 250px;
+     
+}
+.get{
+     height: 30px;
+     width: 120px;
+     text-align: center;
+}
+input::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    padding-left: 25px;
+    font-size:0.6rem;
+}
+.trendingimg{
+     border-top: 2px solid red;
+     color: white;
+     background-color: black;
+     padding: 10px;
+     padding-bottom: 25px;
+}
+.trimage{
+     background-color: black;
+     display: flex;
+    flex-wrap: wrap;   
+    gap: 20px;         
+    justify-content: center;
+}
+.card {
+     position: relative;
+    width: 220px;   
+
+}
+
+.card img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid rgb(117, 116, 116);
+}
+.card img:hover {
+    width: 101%;
+    height: 335px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid rgb(229, 0, 0);
+}
+
+.card h1 {
+ 
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #000000; 
+    -webkit-text-stroke: 1px #ffffff; 
+
+}
+.reso{
+     color: white;
+     background-color: black;
+     padding: 10px;
+     padding-top: 95px;
+     border: 0px;
+     
+}
+.reasons{
+     display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 30px;
+    background-color: black;
+     
+}
+.enjoy{
+     position: relative;
+    background: linear-gradient(135deg, #282855, #472964);
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 100%;
+    min-height: 180px;
+    }
+.enjoy p {
+    opacity: 0.8;
+    line-height: 1.4rem;
+    font-size: 0.99rem;}
+.enjoy h1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.icon {
+    position: ABSOLUTE;
+    bottom: 15px;
+    right: 15px;
+    font-size: 45px;
+    color: white;
+    opacity: 0.8;
+}
+/* footer */
+footer{
+     background-color: black;
+     text-align: center;
+     color :white;
+}
+footer h4{
+     padding-top: 30px;
+     padding-bottom: 30px;
+     color: rgb(229, 228, 228);
+}
+.bottomst .emailadd{
+     width: 500px;
+    height: 50px;
+
+}
+
+footer input::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    padding-left: 25px;
+    font-size:1.2rem;
+     color: #757575;
+}
+footer button{
+     height: 50px;
+     width: 110px;
+     text-align: center;
+     
+}
+footer button:hover{
+     background-color: rgb(206, 2, 2)
+
+}
+.questions{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     gap: 25px;
+     
+}
+.contactus{
+     display :flex;
+     padding-left: 35px;
+     font-size: 1.3rem;
+    
+     margin-bottom: 20px;
+     color: #757575;
+
+}
+.questions a{
+     color: #757575;
+     display: block;
+     margin-bottom:10px ;
+     text-align: left;
+     padding-left: 35px;
+}
+.contactus:hover{
+     text-decoration:underline;
+}
+.questions a:hover{
+     text-decoration:underline;
+}
+select{
+     background-color: rgb(56, 56, 56);
+     color: white;
+     display: flex;
+     margin-left: 35px;
+     margin-top:25px;
+}
+
+.lastf{
+     margin-top: 30px;
+     padding-left: 35px;
+     color: #757575;
+     font-size: 14px;
+     
+}
+.lastf h3 {
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 25px;
+    text-align: left;
+}
+.recap {
+    width: 500px;
+    line-height: 20px;
+    color: #757575;
+    font-size: 13px;
+    margin-left: 0px;
+}
+.recap a {
+     color: rgb(63, 63, 249);
+    text-align: left;
+    text-decoration: underline;
+    cursor: pointer;
+}
